@@ -18,4 +18,4 @@ pip install torch torchvision tqdm matplotlib pillow
 ```
 
 ## Performance Snapshot
-![leaderboard snapshot](https://github.com/wonderer-kale/Visual-Recognition-using-Deep-Learning/hw1/leaderboard_snapshot.png?raw=true)
+![alt text](leaderboard_snapshot.png)
