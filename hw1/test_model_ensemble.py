@@ -13,7 +13,7 @@ state_dict_list = ['resnext50_32x4d_hw1_0.pth',
                    'resnext101_32x8d_hw1_1.pth',
                    'resnext101_32x8d_hw1_2.pth',
                    'resnext101_32x8d_hw1_3.pth',
-                   'resnext101_32x8d_hw1_4.pth',]
+                   'resnext101_32x8d_hw1_4.pth']
 trained_models = []
 device = torch.device("cuda:3" if torch.cuda.is_available() else "cpu")
 for state_dict in state_dict_list:
