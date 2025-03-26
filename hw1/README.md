@@ -14,7 +14,7 @@ The model is fine-tuned using the pretrained ResNeXt model from torchvision.mode
 ## How to Install
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install torch, torchvision, tqdm, matplotlib, pillow
 ```bash
-pip install torch==2.6.0+cu126 torhcvision==0.21.0+cu126 tqdm==4.67.1 matplotlib==3.9.2 pillow=11.0.0
+pip install torch==2.6.0+cu126 torhcvision==0.21.0+cu126 tqdm==4.67.1 matplotlib==3.9.2 pillow==11.0.0
 ```
 or by
 ```bash
