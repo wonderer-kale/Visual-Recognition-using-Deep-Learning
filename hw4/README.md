@@ -31,7 +31,7 @@ python testing.py
 to generate restored images with the saved model checkpoint and the data under the "test" folder, then output the "pred.npz" with the required format.
 
 ## How to Install
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install torch, torchvision, tqdm, matplotlib, pillow, scikit-image
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install torch, torchvision, tqdm, pillow, einops, lightning, pytorch_msssim
 ```bash
 pip install torch==2.6.0 torchvision==0.21.0 tqdm==4.64.0 pillow==9.0.1 einops==0.8.1 numpy==1.21.5 lightning==2.5.1.post0 pytorch_msssim==1.0.0
 ```
