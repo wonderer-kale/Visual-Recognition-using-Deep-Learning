@@ -18,9 +18,11 @@ or
 ```bash
 CUDA_VISIBLE_DEVICES=1,2 python train.py --de_type=rain snow --data_file_dir path_to_your_dataset
 ```
-if you want to specify certain GPU cards.
+if you want to specify certain GPU cards
 
 to train the model with the data under the "train" folder. For more argument options, please refer to options.py. After training, there will be a directory "train_ckpt" where the checkpoints are saved. The checkpoints are saved every 10 epochs and when the validation PSNR reached a new best score.
+
+The dataset is built with the class in utils/dataset_utils.py and preprocessed with utils/dataset_utils.py and utils/image_utils.py. The scheduler applied during training is imported from utils/schedulers.py and the model used for training is net/model.py. 
 
 After training, you can run
 ```bash
