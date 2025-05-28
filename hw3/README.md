@@ -24,7 +24,7 @@ to generate predictions with the saved model "best_model.pth" and the data under
 ## How to Install
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install torch, torchvision, tqdm, matplotlib, pillow, scikit-image
 ```bash
-pip install torch==2.6.0 torchvision==0.21.0 tqdm==4.64.0 matplotlib==3.5.1 pillow==9.0.1 pycocotools==2.0.8 pandas==1.4.2 numpy==1.21.5 opencv-python==4.11.0.86, scikit-image==0.19.2
+pip install torch==2.6.0 torchvision==0.21.0 tqdm==4.64.0 matplotlib==3.5.1 pillow==9.0.1 pycocotools==2.0.8 pandas==1.4.2 numpy==1.21.5 opencv-python==4.11.0.86 scikit-image==0.19.2
 ```
 or by
 ```bash
